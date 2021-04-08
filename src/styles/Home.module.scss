@@ -1,0 +1,79 @@
+$primary-color: blueviolet;
+
+.container {
+	min-height: 100vh;
+	padding: 0 0.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main {
+	padding: 5rem 0;
+	max-width: 800px;
+}
+
+.title {
+	margin: 0;
+	line-height: 1.15;
+	font-size: 4rem;
+	text-align: center;
+}
+
+.posts {
+	list-style: none;
+	padding: 0;
+	margin: 5em 0;
+
+	li {
+		margin-bottom: 3em;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	p {
+		&:first-child {
+			margin-top: 0;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.postContent {
+	font-size: 36px;
+	line-height: 1.15em;
+}
+
+.postDate {
+	font-size: 1.2rem;
+	font-size: 18px;
+	line-height: 1.15em;
+}
+
+.formContent {
+	font-family: "Inter";
+	padding: 0.8em;
+	font-size: 1.4rem;
+	width: 100%;
+	min-height: 6em;
+	background: #ffffff;
+	opacity: 0.2;
+	border: 2px solid #474747;
+	border-radius: 5px;
+	margin-bottom: 1em;
+}
+
+.formButton {
+	border-radius: 5px;
+	color: black;
+	border: 0;
+	padding: 0.6em 1em;
+	font-size: 1.1rem;
+	background-color: rgba(0, 69, 245, 0.4);
+}
